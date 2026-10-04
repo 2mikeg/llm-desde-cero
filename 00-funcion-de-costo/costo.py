@@ -32,8 +32,9 @@ def descenso(tasa, pasos, w=0.0, b=0.0, cada=None):
         if cada and paso % cada == 0:
             c = costo(w, b)
             print(f"paso {paso:3d}  w={w:.3f}  b={b:.3f}  costo={c:.4f}")
-        dw, db = gradiente(w, b)
-        w, b = w - tasa * dw, b - tasa * db
+        if paso < pasos:
+            dw, db = gradiente(w, b)
+            w, b = w - tasa * dw, b - tasa * db
     return w, b
 
 
@@ -58,6 +59,6 @@ if __name__ == "__main__":
     print(f"  descenso (1000 pasos): w={w:.3f}  b={b:.3f}  costo={costo(w, b):.4f}")
 
     print("\nCuatro tasas de aprendizaje, 100 pasos cada una")
-    for tasa in (0.01, 0.1, 0.4, 0.5):
+    for tasa in (0.02, 0.1, 0.4, 0.5):
         w, b = descenso(tasa, 100)
         print(f"  tasa {tasa:<4}  w={w:.3g}  b={b:.3g}  costo={costo(w, b):.3g}")

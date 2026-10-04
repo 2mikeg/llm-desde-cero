@@ -11,7 +11,7 @@ Cada parte tiene tres piezas:
 | # | Parte | Nota | Lab | Código |
 |---|-------|------|-----|--------|
 | 0 | Optimizar una función de costo | [Leer](https://mikelabs.me/notas/optimizar-una-funcion-de-costo/) | [Jugar](https://mikelabs.me/laboratorio/descenso-de-gradiente/) | [00-funcion-de-costo](00-funcion-de-costo/) |
-| 1 | Una red neuronal con NumPy | Por publicar | | |
+| 1 | Una red neuronal con NumPy | En curso | | |
 | 2 | Tokens | Por escribir | | |
 | 3 | Embeddings | Por escribir | | |
 | 4 | Atención, calculada a mano | Por escribir | | |
