@@ -2,7 +2,8 @@
 
 Descenso de gradiente con el ejemplo más simple: ajustar una recta `y = w·x + b` a 50 puntos, calculando el costo y sus derivadas a mano.
 
-Nota: [mikelabs.me/notas/optimizar-una-funcion-de-costo](https://mikelabs.me/notas/optimizar-una-funcion-de-costo/)
+- **Nota:** [Cómo se optimiza una función de costo](https://mikelabs.me/notas/optimizar-una-funcion-de-costo/)
+- **Lab:** [¿Cómo encuentra un modelo la mejor recta?](https://mikelabs.me/laboratorio/descenso-de-gradiente/) Seis pasos para verlo en el navegador: primero ajustas la recta a mano, después miras cómo la encuentra sola.
 
 ```
 python costo.py
