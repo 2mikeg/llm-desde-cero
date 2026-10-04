@@ -5,7 +5,7 @@ El código de la serie que escribo en [mikelabs.me](https://mikelabs.me/desde-ce
 Cada parte tiene tres piezas:
 
 - **La nota:** la explicación, con las fórmulas y figuras que se pueden tocar. Unos 5 minutos de lectura.
-- **El lab:** el mismo tema para jugar paso a paso en el navegador, sin código ni fórmulas.
+- **El lab:** el mismo tema en experimentos cortos en el navegador, sin código ni fórmulas. En cada uno primero adivinas qué va a pasar y después lo pruebas.
 - **El código:** una carpeta de este repositorio, con todo lo que aparece en la nota. Usa NumPy y nada más, sin PyTorch ni librerías de deep learning, para que cada operación quede a la vista.
 
 | # | Parte | Nota | Lab | Código |
