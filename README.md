@@ -11,7 +11,7 @@ Cada parte tiene tres piezas:
 | # | Parte | Nota | Lab | Código |
 |---|-------|------|-----|--------|
 | 0 | Optimizar una función de costo | [Leer](https://mikelabs.me/notas/optimizar-una-funcion-de-costo/) | [Jugar](https://mikelabs.me/laboratorio/descenso-de-gradiente/) | [00-funcion-de-costo](00-funcion-de-costo/) |
-| 1 | Una red neuronal con NumPy | En curso | | |
+| 1 | Una red neuronal con NumPy | En curso | | [01-red-neuronal](01-red-neuronal/) |
 | 2 | Tokens | Por escribir | | |
 | 3 | Embeddings | Por escribir | | |
 | 4 | Atención, calculada a mano | Por escribir | | |
@@ -19,7 +19,7 @@ Cada parte tiene tres piezas:
 | 6 | Entrenar un GPT pequeño | Por escribir | | |
 | 7 | De modelo base a asistente | Por escribir | | |
 
-Cada carpeta aparece cuando se publica su nota. El orden y los títulos pueden cambiar según lo que vaya aprendiendo.
+El código de una parte puede aparecer antes que su nota, mientras la termino. El orden y los títulos pueden cambiar según lo que vaya aprendiendo.
 
 ## Cómo correrlo
 
@@ -28,6 +28,7 @@ Necesitas Python 3.10 o más reciente y NumPy.
 ```
 pip install -r requirements.txt
 python 00-funcion-de-costo/costo.py
+python 01-red-neuronal/red.py
 ```
 
 ## Licencia
